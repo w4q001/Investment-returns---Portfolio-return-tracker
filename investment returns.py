@@ -1,13 +1,8 @@
-#initial_price = float(input('enter your initial investment: '))
-#final_price = float(input('enter your final value: '))
-#ROI = (final_price/initial_price)*100
-#print(f'your ROI is: {ROI:.2f}%')
-
 import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
 
-tickers = ["AAPL", "MSFT"]
+tickers = ["AAPL", "NVDA"]
 data = yf.download(tickers, start="2023-01-01", end="2025-01-01")
 
 if "Adj Close" in data.columns:
