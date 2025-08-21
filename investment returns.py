@@ -26,4 +26,6 @@ cumulative_returns.plot(figsize=(10,6))
 plt.title("Portfolio Cumulative Returns (£100 invested)")
 plt.ylabel("Growth")
 plt.savefig("portfolio_returns.png", dpi=300, bbox_inches="tight")
+plt.savefig('portfolio_returns.pdf', bbox_inches = 'tight')
+
 plt.show()
