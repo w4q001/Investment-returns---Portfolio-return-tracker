@@ -1,0 +1,1 @@
+Python code which exhibits the differences in investment returns if someone were to invest £100 in Apple vs Nvidia, from 2023 to 2025. I imported matplotlib, pandas, and yfinance which allowed me to download stock movements etc
